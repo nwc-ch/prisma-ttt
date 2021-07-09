@@ -1,0 +1,9 @@
+version: '3.5'
+
+services:
+
+  workshops_de_ttt_prisma_server_prod:
+    image: nwc-ch-workshops-de-ttt-prisma:1.0.0
+    container_name: workshops_de_ttt_prisma_server_prod
+    env_file:
+      - ./mountpoints/.env
