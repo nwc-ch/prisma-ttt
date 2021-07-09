@@ -8,7 +8,9 @@ console.log('                       _          _                               _
   ' \\ V  V /| (_) || |   |   < \\__ \\| | | || (_) || |_) |\\__ \\ _| (_| ||  __/\n' +
   '  \\_/\\_/  \\___/ |_|   |_|\\_\\|___/|_| |_| \\___/ | .__/ |___/(_)\\__,_| \\___|\n' +
   '                                               | |\n' +
-  '                                               |_|')
+  '                                               |_|' +
+  '\n' +
+  '\n')
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
